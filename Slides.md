@@ -1,6 +1,6 @@
 --- 
 title: How to do open science in practice? 
-subtitle: – CSC and Aalto tools and services to support open science
+subtitle: – CSC tools and services to support open science
 author: Samantha Wittke
 date: 06.05.22
 lang: en
@@ -13,23 +13,38 @@ theme: csc-2016
 
 # CSC - Computing
 
+Supercomputers
+Web interface
+CPU, GPU, memory
+
 # CSC - Data
 
-# Open Science 
+short term, medium term, long term
+geospatial
+
+# CSC - Cloud
+
+Pouta, Notebooks
+
+# Open Science
 
 # Data
+
+https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/
+
+FAIR
  
 # Software
 
+FAIR
+
 # Workflow
+
+Reproducible
 
 # Publication
 
 # Licensing
-
-# Open Science @ CSC
-
-# Open Science @ Aalto
 
 # What can I do right now?
 
