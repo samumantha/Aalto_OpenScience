@@ -7,15 +7,34 @@ lang: en
 theme: csc-2016
 ---
 
+# TODO
+
+* remove Aalto stuff
+* remove notes, text to image where possible
+  * other text to bulletpoints
+* find flow starting from open science intro
+* merge repository considerations to shorter section
+* clarify data access for all
+* clarify "in practice" 
+  * what can be done now
+  * other stages of process -> link to postassignment (RDM plan)
+* when Paituli not good option?
+
 # Aalto
 
 https://www.aalto.fi/en/open-science-and-research/aalto-university-open-science-and-research-policy
 https://libguides.aalto.fi/copyright/licensing-research-data-at-aalto
 
 
-# Data / Code available on request
+# Data / Code "available on request"
 
 * own good / bad experiences?
+
+# Ever tried to reproduce someones analysis?
+
+* your own after some time?
+* a colleagues?
+* stranger?
 
 # FAIR to the rescue
 
@@ -34,6 +53,8 @@ R - eusability
 
 -> increasing impact and reliability of your work
 
+data and code!
+
 # FAIR digital objects
 
 ![](img/FAIRonion.png)
@@ -49,6 +70,7 @@ lack of restrictions supports the widest possible reuse, and reuse at scale." (h
 # Research data management
 
 Why? 
+
 * good scientific practice, helps you and others
 * required by funding bodies (eg AKA)
 * merit, scientific credits
@@ -78,6 +100,10 @@ see also: https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/#what-to-con
 
 
 https://docs.csc.fi/data/datasets/publishing-datasets/
+
+# Research data
+
+![](img/datatypes.png)
 
 # Good repository?
 
@@ -113,7 +139,7 @@ store - describe - search
     * Single sign-in to the services
     * Descriptive metadata passage between services
 
-* Available (METAX)
+* Available (METAX behind it all)
     * Storage service IDA
     * Metadata tool Qvain
     * Finder/Viewer Etsin
@@ -197,10 +223,12 @@ software and file formats become outdated
 * also includes historical versions of datasets
 * you can publish own geospatial datasets
 * unrestricted access
+* data visualization possible on paituli website
 
+~ 11 TB data
 * number of users/ downloads
 
--> all data also directly available on Puhti
+-> almost all data also directly available on Puhti
 
 # Paituli access
 
@@ -208,9 +236,10 @@ OGC: WMS (maps, map image for viewing), WMTS (maptiles, map image tiles for view
 
 https://paituli.csc.fi/webservices.html
 
-http, ftp, rsync (https://paituli.csc.fi/ftprsync.html)
+Download: 
+manually from webinterface, or http, ftp, rsync (https://paituli.csc.fi/ftprsync.html)
 
-# Data formats Paituli
+# Preferred data formats Paituli
 
 raster: COG
 vector: GPKG/SHP
@@ -335,11 +364,12 @@ https://coderefinery.github.io/reproducible-research/
 * keep original data + codes/notes on process
 * large process -> also keep/publish results
 
+* for publications you can also put Metadata first and later add data, to link in publication
 
 https://how-to-open.science/change/educate/first-steps/
 https://the-turing-way.netlify.app/reproducible-research/open/open-checklist.html
 
-
+# Start early - limit workload
 
 
 # Resources
@@ -377,7 +407,7 @@ https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
 **Store, Share & Publish Data**
 
   * Allas
-  * FAIRDATA
+  * Fairdata and PAS
   * SD services
   * Paituli
 
