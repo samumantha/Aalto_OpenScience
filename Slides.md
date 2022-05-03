@@ -412,9 +412,11 @@ https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
 
 # Training
 
-* ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
-* [Earth Observation workshop](https://ssl.eventilla.com/event/zArJA)
-* []
+* ['Using CSC environment efficiently' self-learning course](https://csc-training.github.io/csc-env-eff/)
+* [16.05: Hybrid Earth Observation workshop](https://ssl.eventilla.com/event/zArJA)
+* [09.+10.05: Geoinformatics Research Days + CSC workshop on Tue](https://www.geoportti.fi/geoinformatics-research-days-2022/)
+* [18.05: Webinar - CSC´s generic services for storing, sharing and publishing data](https://ssl.eventilla.com/event/pEAl3)
+* [23.05: Webinar - Digitaalisen tutkimusaineiston säilytys Fairdata PAS-palvelussa](https://ssl.eventilla.com/event/Q2zRM)
 * [CSC geoinformatics training material](https://research.csc.fi/gis-learning-materials)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
