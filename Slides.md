@@ -83,6 +83,7 @@ https://research.csc.fi/data-management?inheritRedirect=true
 
 # Research data service considerations
 
+* sensibility of publishing?
 * domain specific/organizational repository available?
 * sensitive data?
 * intended data usage?
@@ -121,6 +122,10 @@ https://docs.csc.fi/data/datasets/publishing-datasets/
 
 -> re3data.org
 
+# other services
+
+table from paituli_LUKE 2021 presentation, slide 14
+
 # CSC services
 
 https://research.csc.fi/storage-comparison-table
@@ -128,6 +133,8 @@ https://research.csc.fi/open-and-discover
 
 
 # FAIRdata services
+
+OKM service, CSC maintains
 
 ![](img/fairdata_process-1.png)
 
@@ -181,6 +188,8 @@ https://www.fairdata.fi/en/qvain/qvain-user-guide/
 Metadata
 description
 
+PID
+
 Create(s) a descriptive metadata for research datasets to 
 improve their finadbility
 
@@ -191,7 +200,7 @@ data public; "embargo" (data public for certain time); data public for logged in
 
 # Etsin
 
-PID and landing page
+landing page
 For searching research data and their descriptive metadata from the Fairdata service
 ensurance that metadata is available even if data is no longer
 
@@ -199,11 +208,11 @@ ensurance that metadata is available even if data is no longer
 
 1. Create a CSC user account.
 2. Use IDA to store your data (Optional step. Instead of using IDA to store your data, you can add an URL to data in any remote resource, but then you can only get a URN identifier for you dataset, not DOI. You can also publish only the metadata of your dataset, without any link to the actual data. )
-3. Create a project and apply for IDA storage space. You can add members to your project.
+3. Create a project and apply for IDA storage space (Aalto needs to accept). You can add members to your project.
         Store your data in IDA and freeze it.
 4. Use Qvain to create a dataset and to publish it
         Create a dataset description, include either files from IDA or from remote resource and publish the dataset
-5.Visit Etsin to view your published dataset
+5. Visit Etsin to view your published dataset
         Visit your dataset’s landing page. Note the persistent identifier (DOI or URN). You’ll need it when you reference the dataset.
 
 
@@ -216,19 +225,32 @@ software and file formats become outdated
 
 10TB for Aalto
 
+Spatial data format will be defined as part of Geoportti 2.0 
+
 # Paituli
+
+CSC service
+OKM supports maintaining it
 
 * spatial data download service
 * Paituli is open to anyone 
 * also includes historical versions of datasets
 * you can publish own geospatial datasets
 * unrestricted access
-* data visualization possible on paituli website
+* data preview possible on paituli website
+* not limited to Finland
+* annual usage reports
+* PID 
 
-~ 11 TB data
-* number of users/ downloads
 
--> almost all data also directly available on Puhti
+# Paituli data
+
+~ 13 TB data (mention some datasets)
+
+2021
+* number of users: 2615 
+* number of downloads(web): 10k
+* number of API requests: > 1mio
 
 # Paituli access
 
@@ -239,6 +261,8 @@ https://paituli.csc.fi/webservices.html
 Download: 
 manually from webinterface, or http, ftp, rsync (https://paituli.csc.fi/ftprsync.html)
 
+-> almost all data also directly available on Puhti
+
 # Preferred data formats Paituli
 
 raster: COG
@@ -248,9 +272,12 @@ multidimensional: netcdf,zarr
 
 # Publishing data on Paituli
 
+
+link: 
+
 1. Make sure the data can be published. 
-2. Describe the data. The data description should include:
-3. Package your data, technical recommendations
+2. Describe the data. 
+3. Package your data
 4. Send the data and its description to giscoord@csc.fi.
 5. CSC will publish your data to Paituli in a week or two.
 
@@ -260,7 +287,7 @@ https://docs.csc.fi/data/sensitive-data/
 
 [What is sensitive data?](https://research.csc.fi/definition-of-sensitive-data)
 
-Simple to use web-user interfaces which provide a secure workspace and facilitate sensitive data management. 
+easy to use web-user interfaces which provide a secure workspace and facilitate sensitive data management. 
 
 SD Connect: store and share sensitive research data during the active phase of a research project; built on Allas; storage in Finland
 
@@ -271,6 +298,8 @@ SD Submit: publish under controlled access (pilot phase)
 SD Apply: re-use (pilot phase)
 
 Designed to support collaborative projects, on demand, available from the public internet.
+
+Software? -> possible to add stuff (eg QGIS, geoconda, R / Python...)
 
 
 https://research.csc.fi/sensitive-data-services-for-research
@@ -287,16 +316,25 @@ The common EUDAT services
 
 https://research.csc.fi/-/eudat-services
 
+
+# Allas 
+
+object storage
+project- lifetime storage
+access
+project maximum size for free : 200TB
+
 # How to choose?
 
 1. sensitive data? -> SD services
 2. domain specific repository?
 3. dataset size & cost?
 4. access needs?
-5. connection to home organization and research.fi
+5. time data is promised to be availble
+5. Ease of publishing process
+6. connection to home organization and research.fi
 
 # Licensing
-
 
 Aalto : As open as possible, as closed as necessary’ - https://www.aalto.fi/en/open-science-and-research/aalto-university-open-science-and-research-policy
 
@@ -310,7 +348,7 @@ CC BY 4.0 (or later, not earlier, not valid for data!)
 
 Data: https://creativecommons.org/
 
-CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. 
+CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. (Metadata could be CC0)
 
 # Data formats
 
@@ -340,6 +378,7 @@ ie moving to Puhti gives you a headstart
 Reproducible
 https://coderefinery.github.io/reproducible-research/
 
+tykky
 
 # Publication
 
@@ -352,11 +391,11 @@ https://coderefinery.github.io/reproducible-research/
 * Research plan /RDM - keep up to date
 * document each dataset 
 * think about future storage
-* get PID for dataset and use it
+* get PID (DOI, immutable!) for dataset and use it
 * use services that support FAIR principles
 
 * clear file naming
-* version control (git LFS, git-annex, datalad)
+* version control (git LFS, git-annex, datalad) , v1,v2,.. or date in filename
 
 * code == documentation of process
 * document software environment
@@ -365,6 +404,8 @@ https://coderefinery.github.io/reproducible-research/
 * large process -> also keep/publish results
 
 * for publications you can also put Metadata first and later add data, to link in publication
+
+* make backups!
 
 https://how-to-open.science/change/educate/first-steps/
 https://the-turing-way.netlify.app/reproducible-research/open/open-checklist.html
@@ -380,10 +421,10 @@ https://fairsharing.org/
 https://www.software.ac.uk/how-can-you-make-research-data-accessible
 https://www.openaire.eu/research-data-how-to-license/
 https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
+https://research.fi
 
 
 # CSC
-
 
 * non-profit state enterprise with special tasks
 * owned by Finnish state (70%) and higher education institutions (30%)
