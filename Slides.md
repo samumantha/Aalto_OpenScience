@@ -128,6 +128,7 @@ specifically well suited for large storage, free with limitations
 Saving, organising, sharing and storing data
 
 * stable research data, 
+* during project lifetime and after,
 * both raw data and processed data, 
 * free of charge to users affiliated with Finnish universities and polytechnics, Finnish research institutes and research funded by the Academy of Finland.
 
@@ -167,6 +168,18 @@ data public; "embargo" (data public for certain time); data public for logged in
 PID and landing page
 For searching research data and their descriptive metadata from the Fairdata service
 ensurance that metadata is available even if data is no longer
+
+# How to publish your dataset with Fairdata
+
+1. Create a CSC user account.
+2. Use IDA to store your data (Optional step. Instead of using IDA to store your data, you can add an URL to data in any remote resource, but then you can only get a URN identifier for you dataset, not DOI. You can also publish only the metadata of your dataset, without any link to the actual data. )
+3. Create a project and apply for IDA storage space. You can add members to your project.
+        Store your data in IDA and freeze it.
+4. Use Qvain to create a dataset and to publish it
+        Create a dataset description, include either files from IDA or from remote resource and publish the dataset
+5.Visit Etsin to view your published dataset
+        Visit your dataset’s landing page. Note the persistent identifier (DOI or URN). You’ll need it when you reference the dataset.
+
 
 # Digital preservation
 
@@ -235,14 +248,23 @@ https://research.csc.fi/sensitive-data-services-for-research
 
 # Other
 
-B2Share (EUDAT) - currently only guaranteed for 2 years, 20 GB limit for one dataset, 10 GB per file -> more needs premium access, which Aalto does not have
+The common EUDAT services 
+* open for all, 
+* 20 GB limit for dataset 
+* 10 GB per file
+* currently only guaranteed for 2 years
+* premium EUDAT services which are bought by an organization, can be tailored (Aalto does not have those), 
+* metadata planned to be harvested to research.fi 
+
+https://research.csc.fi/-/eudat-services
 
 # How to choose?
 
 1. sensitive data? -> SD services
 2. domain specific repository?
-3. dataset size & cost
-4. connection to home organization and research.fi
+3. dataset size & cost?
+4. access needs?
+5. connection to home organization and research.fi
 
 # Licensing
 
@@ -386,7 +408,7 @@ https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
 * long term
 * geospatial
 
-- Allas; also direct access without download
+- **Allas**; also direct access without download
 
 # CSC - Expertise
 
