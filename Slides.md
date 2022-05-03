@@ -7,6 +7,12 @@ lang: en
 theme: csc-2016
 ---
 
+# Aalto
+
+https://www.aalto.fi/en/open-science-and-research/aalto-university-open-science-and-research-policy
+https://libguides.aalto.fi/copyright/licensing-research-data-at-aalto
+
+
 # Data / Code available on request
 
 * own good / bad experiences?
@@ -51,6 +57,8 @@ Aalto: publicly funded research has to be open , if possible
 
 ![](img/Benefits-of-rdm-v2.png)
 
+https://research.csc.fi/data-management?inheritRedirect=true
+
 # Research data service considerations
 
 * domain specific/organizational repository available?
@@ -68,6 +76,9 @@ see also: https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/#what-to-con
 
 ![](img/publish_process.png)
 
+
+https://docs.csc.fi/data/datasets/publishing-datasets/
+
 # Good repository?
 
 * Established
@@ -84,7 +95,15 @@ see also: https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/#what-to-con
 
 -> re3data.org
 
+# CSC services
+
+https://research.csc.fi/storage-comparison-table
+https://research.csc.fi/open-and-discover
+
+
 # FAIRdata services
+
+![](img/fairdata_process-1.png)
 
 store - describe - search 
 
@@ -195,6 +214,8 @@ multidimensional: netcdf,zarr
 
 # Sensitive Data Services for research
 
+https://docs.csc.fi/data/sensitive-data/
+
 [What is sensitive data?](https://research.csc.fi/definition-of-sensitive-data)
 
 Simple to use web-user interfaces which provide a secure workspace and facilitate sensitive data management. 
@@ -215,6 +236,13 @@ https://research.csc.fi/sensitive-data-services-for-research
 # Other
 
 B2Share (EUDAT) - currently only guaranteed for 2 years, 20 GB limit for one dataset, 10 GB per file -> more needs premium access, which Aalto does not have
+
+# How to choose?
+
+1. sensitive data? -> SD services
+2. domain specific repository?
+3. dataset size & cost
+4. connection to home organization and research.fi
 
 # Licensing
 
@@ -298,6 +326,8 @@ https://avointiede.fi
 https://the-turing-way.netlify.app/index.html
 https://fairsharing.org/
 https://www.software.ac.uk/how-can-you-make-research-data-accessible
+https://www.openaire.eu/research-data-how-to-license/
+https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
 
 
 # CSC
@@ -383,6 +413,8 @@ https://www.software.ac.uk/how-can-you-make-research-data-accessible
 # Training
 
 * ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
+* [Earth Observation workshop](https://ssl.eventilla.com/event/zArJA)
+* []
 * [CSC geoinformatics training material](https://research.csc.fi/gis-learning-materials)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
