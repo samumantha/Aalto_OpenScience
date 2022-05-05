@@ -4,7 +4,7 @@ subtitle: – CSC tools and services to support open science
 author: Samantha Wittke
 date: 06.05.22
 lang: en
-theme: csc-2016
+theme: csc-2019
 ---
 
 
@@ -266,7 +266,7 @@ theme: csc-2016
 
 # Licensing
 
-CC BY **4.0** (or later, not earlier, not valid for data!)
+CC BY **4.0** (or later; not earlier, not valid for data!)
 
 -> attribution (licensor must be given credit)
 
@@ -305,26 +305,32 @@ CC BY **4.0** (or later, not earlier, not valid for data!)
 <br></br>
 
 <p align="center">
+
 Start early - limit workload
 
-\- but it is (almost) never too late!
+But it is (almost) never too late!
+
 </p>
 
 # What can I do right now?
 
 <div class="column">
+
 * RDM plan - keep up to date
 * document everything (metadata, code)
 * current and future storage
 * (get PID (DOI, immutable!) for dataset and use it)
 * use services that support FAIR principles
+
 </div>
 <div class="column">
+
 * clear file naming
 * version control (git LFS, git-annex, datalad)
 * keep original data separate
 * publish metadata (with or without data attached)
 * backups
+
 </div>
 
 #  
@@ -375,6 +381,7 @@ Start early - limit workload
   - cPouta / ePouta
   - Puhti / Mahti / LUMI
   - Notebooks
+  - Rahti
 
 </div>
 
@@ -390,9 +397,10 @@ Start early - limit workload
 
 # CSC - Puhti
 
-* webinterface
 * parallel computing
+* large software stack
 * CPU, GPU, memory
+* webinterface
 
 # CSC - Cloud
 
@@ -418,10 +426,11 @@ Start early - limit workload
 ...at your fingertips:
 
 <div class="column">
-[`docs.csc.fi`](https://docs.csc.fi)
-
-[`research.csc.fi`](https://research.csc.fi)
-
+<br></br>
+[docs.csc.fi](https://docs.csc.fi)
+<br></br>
+[research.csc.fi](https://research.csc.fi)
+<br></br>
 </div>
 
 <div class="column">
@@ -452,3 +461,4 @@ Start early - limit workload
 
 * FAIR: -> https://doi.org/10.5281/zenodo.3332807
 * FAIR object: -> https://data.europa.eu/doi/10.2777/1524
+* other Figures: CSC

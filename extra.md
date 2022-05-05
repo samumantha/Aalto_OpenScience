@@ -82,3 +82,11 @@ IDA not suitable for
 # Licensing
 Aalto: "as open as possible, as closed as necessary" 
 Data: CC BY 4.0 for protocols, MIT for code
+
+# FAIR digital objects
+
+
+<p align="center">
+<img src="img/FAIRonion.png"  
+     height="800" />
+</p>
