@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Samantha Wittke">
+  <title>How to do open science in practice?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://mlouhivu.github.io/static-engine/reveal/3.5.0/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="theme/csc-2016/csc.css" id="theme">
+  <link rel="stylesheet" href="theme/csc-2016/fonts.css">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'theme/csc-2016/pdf.css' : 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section class="slide level1 title-slide" data-background-size="contain" data-background="theme/csc-2016/img/title-en.png">
+  <h1>How to do open science in practice?</h1>
+  <p>– CSC tools and services to support open science</p>
+  <p>Samantha Wittke, 06.05.22</p>
+</section>
+
+<section id="data-code-available-on-request" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Data / Code “available on
+request”</h1>
+<ul>
+<li>own good / bad experiences?</li>
+</ul>
+</section>
+<section id="fair-to-the-rescue" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIR to the rescue!</h1>
+<p align="center">
+<img src="img/fair-principles.jpg"  
+     height="800" />
+</p>
+</section>
+<section id="fair-digital-objects" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIR digital objects</h1>
+<p align="center">
+<img src="img/FAIRonion.png"  
+     height="800" />
+</p>
+</section>
+<section id="fair-open" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIR != Open</h1>
+<p>“Data can be FAIR or Open, both or neither. The greatest benefits
+come when data are both FAIR and Open, as the lack of restrictions
+supports the widest possible reuse, and reuse at scale.”
+(https://data.europa.eu/doi/10.2777/1524)</p>
+</section>
+<section id="section" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain"></h1>
+<p align="center">
+<img src="img/benefits_of_opening_data.png"  
+     height="800" />
+</p>
+</section>
+<section id="research-data-management" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">-&gt; Research data management</h1>
+<ul>
+<li>good scientific practice</li>
+<li>helps you and others</li>
+<li>required by funding bodies (eg AKA)</li>
+<li>merit, scientific credits</li>
+<li>comply with FAIR principles</li>
+<li>agree on data ownership and sharing early on</li>
+<li>ensure needed resources: storage, computing environment, equipment
+etc.</li>
+</ul>
+</section>
+<section id="research-data-service-considerations" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Research data service
+considerations</h1>
+<p><br></br></p>
+<div class="column">
+<ul>
+<li>sensibility of publishing dataset?</li>
+<li>sensitive data?</li>
+<li>domain specific repository available?</li>
+<li>intended data usage?</li>
+<li>maintainer?</li>
+<li>interfaces needed?</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>storage space needs?</li>
+<li>file transfer needs?</li>
+<li>metadata needs?</li>
+<li>security needs?</li>
+<li>data type</li>
+</ul>
+</div>
+</section>
+<section id="data-repositories" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Data repositories</h1>
+<p><br></br></p>
+<div class="column">
+<p><strong>Find yours:</strong></p>
+<ul>
+<li><a href="https://re3data.org">re3data.org</a></li>
+<li><a href="https://fairsharing.org/">fairsharing.org</a></li>
+<li><a href="https://www.nature.com/sdata/policies/repositories">Nature
+recommendations</a></li>
+</ul>
+</div>
+<div class="column">
+<p><strong>Check for:</strong></p>
+<ul>
+<li>Well established</li>
+<li>Good metadata</li>
+<li>Curation and preservation</li>
+<li>Open and machine readable</li>
+</ul>
+</div>
+</section>
+<section id="potentially-interesting-repositories" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Potentially interesting
+repositories</h1>
+<ul>
+<li><strong>Avoindata.fi</strong>, no PID, free, open license</li>
+<li><strong>Pangaea</strong>, DOI, max 10GB, free (500€ if possible),
+open license, earth and life sciences, reviewed</li>
+<li><strong>Zenodo</strong>, DOI, max 50 GB, free, any license, also
+non-open datasets</li>
+<li><strong>GFZ Data Services</strong>, DOI, free, open license, earth
+and environmental sciences</li>
+<li><strong>Dryad</strong>, DOI, max 300GB, 120+$, CCO, reviewed</li>
+</ul>
+</section>
+<section id="fairdata-services" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIRdata services</h1>
+<p align="center">
+<img src="img/fairdata_process-1.png"  
+     height="800" />
+</p>
+</section>
+<section id="fairdata-benefits" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIRdata benefits</h1>
+<ul>
+<li><p>Smooth transition between separate services</p>
+<ul>
+<li>Single sign-in</li>
+<li>Descriptive metadata passage</li>
+</ul></li>
+<li><p>specifically well suited for large storage</p></li>
+<li><p>free (with limitations)</p></li>
+</ul>
+</section>
+<section id="saving-organising-sharing-and-storing-data-with-ida"
+class="slide level1" data-background-size="contain">
+<h1 data-background-size="contain">Saving, organising, sharing and
+storing data with IDA</h1>
+<ul>
+<li>stable research data</li>
+<li>during project lifetime and after</li>
+<li>both raw data and processed data</li>
+<li>web and command line interface</li>
+<li>possibility to collect cumulative data</li>
+<li>possibility to “stage before freeze”</li>
+</ul>
+</section>
+<section id="metadata-description-with-qvain" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Metadata description with Qvain</h1>
+<p>-&gt; data description, producer, topic, keywords and licenses
+<br></br></p>
+<ul>
+<li>assignes PID (URI (non-static) or DOI)</li>
+<li>choose access
+<ul>
+<li>data public</li>
+<li>“embargo” (data public for certain time)</li>
+<li>data public for logged-in users (HAKA/CSC)</li>
+<li>non-public</li>
+</ul></li>
+</ul>
+</section>
+<section id="etsin---fairdatas-search-engine" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Etsin - Fairdatas search
+‘engine’</h1>
+<ul>
+<li>landing page</li>
+</ul>
+<p>-&gt; ensurance that metadata is available even if data is no
+longer</p>
+</section>
+<section id="publishing-data-with-fairdata" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Publishing data with Fairdata</h1>
+<ol type="1">
+<li>Create a CSC user account</li>
+<li>(IDA: Create a project and apply (from Aalto) for IDA storage
+space)</li>
+<li>(Add members to your project)</li>
+<li>(IDA: Store your data and freeze it)</li>
+<li>Qvain: create a dataset/metadata and publish it</li>
+<li>Etsin: view your published dataset</li>
+</ol>
+</section>
+<section id="digital-preservation-service" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Digital preservation service</h1>
+<p>(Pitkäaikaissäilytys (PAS))</p>
+<p>“Preservation of digital information for several decades or
+centuries, even though hardware, software and file formats become
+outdated”</p>
+<p><br></br></p>
+<p>-&gt; Geoportti project: Definition of spatial data format</p>
+</section>
+<section id="paituli" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Paituli</h1>
+<ul>
+<li>spatial data download service</li>
+<li>open to anyone, unrestricted access</li>
+<li>includes historical versions of datasets</li>
+<li>publish own geospatial datasets -&gt; URN</li>
+<li>webbased data preview</li>
+<li>not limited to Finland</li>
+<li>annual usage reports</li>
+</ul>
+</section>
+<section id="paituli-data" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Paituli data</h1>
+<p>~ 13 TB data</p>
+<p>2021</p>
+<ul>
+<li>2615 users</li>
+<li>10k downloads from web</li>
+<li>&gt; 1mio API requests</li>
+</ul>
+<p>-&gt; almost all data also on Puhti</p>
+</section>
+<section id="paituli-access" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Paituli access</h1>
+<p><strong>OGC webservices:</strong></p>
+<ul>
+<li>WMS (maps, map image for viewing)</li>
+<li>WMTS (maptiles, map image tiles for viewing)</li>
+<li>WFS (features; vector data)</li>
+<li>WCS (coverage, raster data</li>
+</ul>
+<p><strong>Download:</strong></p>
+<ul>
+<li>webinterface,</li>
+<li>bulk download: http, ftp, rsync</li>
+</ul>
+</section>
+<section id="preferred-data-formats" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Preferred data formats</h1>
+<ul>
+<li>raster: COG</li>
+<li>vector: GPKG/SHP</li>
+<li>pointcloud: LAZ</li>
+<li>multidimensional: netcdf, zarr</li>
+</ul>
+</section>
+<section id="publishing-data-on-paituli" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Publishing data on Paituli</h1>
+<ol type="1">
+<li>Make sure the data can be published</li>
+<li>Describe the data</li>
+<li>Package your data</li>
+<li>Send the data and its description to giscoord@csc.fi</li>
+<li>CSC will publish your data to Paituli in a week or two</li>
+</ol>
+</section>
+<section id="sensitive-data-services" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Sensitive Data Services</h1>
+<p>“Secure workspace for all phases of research”</p>
+<p><br></br></p>
+<div class="column">
+<ul>
+<li>webinterface</li>
+<li>on-demand</li>
+<li>data-controller</li>
+<li>always encrypted</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li><strong>SD Connect</strong>: store and share sensitive research data
+during the active phase of a research project</li>
+<li><strong>SD Desktop</strong>: isolated, secure private cloud
+computing environment accessible via web interface; extendable software
+stack</li>
+<li><strong>SD Submit</strong>: publish under controlled access (pilot
+phase)</li>
+<li><strong>SD Apply</strong>: re-use (pilot phase)</li>
+</ul>
+</div>
+</section>
+<section id="allas" class="slide level1" data-background-size="contain">
+<h1 data-background-size="contain">Allas</h1>
+<ul>
+<li>Object storage</li>
+<li>Project-lifetime storage</li>
+<li>Connected with other services</li>
+<li>Accessible also from own computer</li>
+<li>CSC account and project required</li>
+<li>Maximum size for free: <strong>200TB</strong></li>
+</ul>
+</section>
+<section id="eudat-services" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">EUDAT services</h1>
+<ul>
+<li>open for all</li>
+<li>20 GB limit for dataset</li>
+<li>10 GB per file</li>
+<li>currently only guaranteed for 2 years</li>
+<li>customizable (premium access)</li>
+</ul>
+</section>
+<section id="how-to-choose" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">How to choose?</h1>
+<ol type="1">
+<li>sensitive data? -&gt; SD services</li>
+<li>domain specific repository?</li>
+<li>availability timeframe?</li>
+<li>dataset size &amp; cost?</li>
+<li>access needs?</li>
+<li>ease of publishing process</li>
+<li>connection to home organization and research.fi</li>
+</ol>
+</section>
+<section id="licensing" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Licensing</h1>
+<p>CC BY <strong>4.0</strong> (or later, not earlier, not valid for
+data!)</p>
+<p>-&gt; attribution (licensor must be given credit)</p>
+<p>(-SA: share-alike; -ND: non derivative; -NC: non commercial)</p>
+<p>-&gt; irrevocable! All authors must agree, no restrictions may be
+added</p>
+<p><strong>CC0</strong>: relinquish all copyrights to your data (-&gt;
+Metadata could be CC0)</p>
+</section>
+<section id="fair-software-practices" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">FAIR software practices</h1>
+<p><br></br></p>
+<div class="column">
+<ul>
+<li>Version control</li>
+<li>Accessible documentation</li>
+<li>License, e.g. MIT</li>
+<li>DOI from e.g. Zenodo</li>
+<li>Recording environments</li>
+</ul>
+</div>
+<div class="column">
+<p align="center">
+<img src="img/CodeRefinery.png"  
+     height="400" />
+</p>
+</div>
+</section>
+<section id="actions" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Actions</h1>
+<p><br></br></p>
+<p align="center">
+<p>Start early - limit workload</p>
+- but it is (almost) never too late!
+</p>
+</section>
+<section id="what-can-i-do-right-now" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">What can I do right now?</h1>
+<div class="column">
+<ul>
+<li>RDM plan - keep up to date</li>
+<li>document everything (metadata, code)</li>
+<li>current and future storage</li>
+<li>(get PID (DOI, immutable!) for dataset and use it)</li>
+<li>use services that support FAIR principles</li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li>clear file naming</li>
+<li>version control (git LFS, git-annex, datalad)</li>
+<li>keep original data separate</li>
+<li>publish metadata (with or without data attached)</li>
+<li>backups</li>
+</ul>
+</div>
+</section>
+<section id="section-1" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain"></h1>
+<p align="center">
+<img src="img/publish_process.png"  
+     height="800" />
+</p>
+</section>
+<section id="resources" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Resources</h1>
+<div class="column">
+<ul>
+<li><a href="https://avointiede.fi">avointiede.fi</a></li>
+<li><a href="https://research.fi">reseach.fi</a></li>
+<li><a href="https://the-turing-way.netlify.app/index.html">Turing
+way</a></li>
+<li><a href="https://fairsharing.org/">Fairsharing</a></li>
+<li><a
+href="https://www.software.ac.uk/how-can-you-make-research-data-accessible">Tips
+for accessible research data</a></li>
+<li><a href="https://www.openaire.eu/research-data-how-to-license/">Tips
+for licensing research data</a></li>
+<li><a href="https://www.rd-alliance.org">Research Data
+Alliance</a></li>
+<li><a href="https://choosealicense.com/">Licensing software</a></li>
+</ul>
+</div>
+<div class="column">
+<ul>
+<li><a href="https://coderefinery.org/lessons/">CodeRefinery material -
+FAIR software practices</a></li>
+<li><a href="https://research.csc.fi/storage-comparison-table">CSC
+storage comparison</a></li>
+<li><a href="https://docs.csc.fi/data/datasets/dataset-sources/">CSC
+docs - data</a></li>
+<li><a href="https://www.fairdata.fi">CSC Fairdata services</a></li>
+<li><a
+href="https://research.csc.fi/-/eudat-services">EUDATservices</a></li>
+<li><a
+href="https://research.csc.fi/sensitive-data-services-for-research">CSC
+Sensitive data</a></li>
+</ul>
+</div>
+</section>
+<section id="csc" class="slide level1" data-background-size="contain">
+<h1 data-background-size="contain">CSC</h1>
+<ul>
+<li>non-profit state enterprise with special tasks</li>
+<li>owned by Finnish state (70%) and higher education institutions
+(30%)</li>
+<li>headquaters in Keilaniemi, Espoo</li>
+<li>side offices and supercomputers in Kajaani</li>
+</ul>
+</section>
+<section id="csc-services" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">CSC services</h1>
+<p><a
+href="https://research.csc.fi/en/service-catalog"><code>research.csc.fi/en/service-catalog</code></a></p>
+<div class="column">
+<p><strong>Compute &amp; Analyze</strong></p>
+<ul>
+<li>cPouta / ePouta</li>
+<li>Puhti / Mahti / LUMI</li>
+<li>Notebooks</li>
+</ul>
+</div>
+<div class="column">
+<p><strong>Store, Share &amp; Publish Data</strong></p>
+<ul>
+<li>Allas</li>
+<li>Fairdata and PAS</li>
+<li>SD services</li>
+<li>Paituli</li>
+</ul>
+</div>
+</section>
+<section id="csc---puhti" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">CSC - Puhti</h1>
+<ul>
+<li>webinterface</li>
+<li>parallel computing</li>
+<li>CPU, GPU, memory</li>
+</ul>
+</section>
+<section id="csc---cloud" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">CSC - Cloud</h1>
+<ul>
+<li>Pouta
+<ul>
+<li>own virtual machines</li>
+<li>webservice</li>
+<li>databases</li>
+</ul></li>
+<li>Notebooks
+<ul>
+<li>university courses</li>
+<li>self-learning</li>
+<li>collaboration</li>
+</ul></li>
+<li>Rahti - container cloud</li>
+</ul>
+</section>
+<section id="csc---data" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">CSC - Data</h1>
+<ul>
+<li>short term -&gt; Allas, Puhti</li>
+<li>medium term -&gt; Allas, IDA</li>
+<li>long term -&gt; IDA, PAS</li>
+<li>geospatial -&gt; Paituli</li>
+</ul>
+</section>
+<section id="csc---expertise" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">CSC - Expertise</h1>
+<p>…at your fingertips:</p>
+<div class="column">
+<p><a href="https://docs.csc.fi"><code>docs.csc.fi</code></a></p>
+<p><a
+href="https://research.csc.fi"><code>research.csc.fi</code></a></p>
+</div>
+<div class="column">
+<p><strong>+ servicedesk@csc.fi</strong> * Geoinformatics team * Storage
+team * Supercomputer team * Cloudcomputing team * Accounts team * …</p>
+</div>
+</section>
+<section id="training" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Training</h1>
+<ul>
+<li><a href="https://csc-training.github.io/csc-env-eff/">‘Using CSC
+environment efficiently’ self-learning course</a></li>
+<li><a href="https://ssl.eventilla.com/event/zArJA">16.05: Hybrid Earth
+Observation workshop</a></li>
+<li><a
+href="https://www.geoportti.fi/geoinformatics-research-days-2022/">09.+10.05:
+Geoinformatics Research Days + CSC workshop on Tue</a></li>
+<li><a href="https://ssl.eventilla.com/event/pEAl3">18.05: Webinar -
+CSC´s generic services for storing, sharing and publishing data</a></li>
+<li><a href="https://ssl.eventilla.com/event/Q2zRM">23.05: Webinar -
+Digitaalisen tutkimusaineiston säilytys Fairdata PAS-palvelussa</a></li>
+<li><a href="https://research.csc.fi/gis-learning-materials">CSC
+geoinformatics training material</a></li>
+</ul>
+<p>-&gt; follow our <a
+href="https://www.csc.fi/en/training#training-calendar">training
+calendar</a></p>
+</section>
+<section id="figures" class="slide level1"
+data-background-size="contain">
+<h1 data-background-size="contain">Figures</h1>
+<p>FAIR: -&gt; https://doi.org/10.5281/zenodo.3332807 FAIR object: -&gt;
+https://data.europa.eu/doi/10.2777/1524</p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/head.min.js"></script>
+  <script src="https://mlouhivu.github.io/static-engine/reveal/3.5.0/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+        height: 1080,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/plugin/zoom-js/zoom.js', async: true },
+          { src: 'https://mlouhivu.github.io/static-engine/reveal/3.5.0/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

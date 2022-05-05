@@ -12,126 +12,137 @@ theme: csc-2016
 
 * own good / bad experiences?
 
-# FAIR to the rescue
+# FAIR to the rescue!
 
-![](img/fair-principles.jpg)
--> https://doi.org/10.5281/zenodo.3332807
+<p align="center">
+<img src="img/fair-principles.jpg"  
+     height="800" />
+</p>
 
 # FAIR digital objects
 
-![](img/FAIRonion.png)
--> https://data.europa.eu/doi/10.2777/1524
+
+<p align="center">
+<img src="img/FAIRonion.png"  
+     height="800" />
+</p>
 
 # FAIR != Open
 
-"Data can be FAIR or Open, both or neither. The greatest benefits come when data are both FAIR and Open, as the
-lack of restrictions supports the widest possible reuse, and reuse at scale." (https://data.europa.eu/doi/10.2777/1524)
+"Data can be FAIR or Open, both or neither. The greatest benefits come when data are both FAIR and Open, as the lack of restrictions supports the widest possible reuse, and reuse at scale." (https://data.europa.eu/doi/10.2777/1524)
 
-![](img/benefits_of_opening_data.png)
+#  
+
+
+<p align="center">
+<img src="img/benefits_of_opening_data.png"  
+     height="800" />
+</p>
+
 
 # -> Research data management
 
-Why? 
-
-* good scientific practice, helps you and others; efficiency
+* good scientific practice
+* helps you and others
 * required by funding bodies (eg AKA)
 * merit, scientific credits
 * comply with FAIR principles
 * agree on data ownership and sharing early on
 * ensure needed resources: storage, computing environment, equipment etc.
 
-
-# Research data?
-
-* Active data: raw, continuously updated
--> documentation, validation ->
-* Dynamic research data: version controlled, possible to cite
--> research ->
-* Research data publication: immutable
-
 # Research data service considerations
 
+<br></br>
+
+<div class="column">
 * sensibility of publishing dataset?
 * sensitive data?
-* domain specific/organizational repository available?
+* domain specific repository available?
 * intended data usage?
 * maintainer?
 * interfaces needed?
-* storage space needs? (individual file size?)
-* automated file transfer?
+</div>
+
+<div class="column">
+* storage space needs? 
+* file transfer needs?
 * metadata needs?
 * security needs?
-* data type (raw & accumulating, dynamic, immutable public)
+* data type 
+</div>
 
 # Data repositories
 
-[re3data.org](https://re3data.org) 
-[fairsharing.org](https://fairsharing.org/)
-[Nature recommendations](https://www.nature.com/sdata/policies/repositories)
+<br></br>
 
-Check for:
-* Established
+<div class="column">
+**Find yours:**
+
+* [re3data.org](https://re3data.org) 
+* [fairsharing.org](https://fairsharing.org/)
+* [Nature recommendations](https://www.nature.com/sdata/policies/repositories)
+</div>
+
+<div class="column">
+**Check for:**
+
+* Well established
 * Good metadata
 * Curation and preservation
 * Open and machine readable
+</div>
 
 # Potentially interesting repositories
 
 * **Avoindata.fi**, no PID, free, open license
-* **Pangaea**, DOI, max 10GB, free (500€ if possible), open license, earth and life sciences, needs review -> slow process
+* **Pangaea**, DOI, max 10GB, free (500€ if possible), open license, earth and life sciences, reviewed
 * **Zenodo**, DOI, max 50 GB, free, any license, also non-open datasets
 * **GFZ Data Services**, DOI, free, open license, earth and environmental sciences
-* **Dryad**, DOI, max 300GB, 120+$, CCO, requires review -> slow process
+* **Dryad**, DOI, max 300GB, 120+$, CCO, reviewed
 
 # FAIRdata services
 
-store - describe - search 
--> latter part of research data life cycle
+<p align="center">
+<img src="img/fairdata_process-1.png"  
+     height="800" />
+</p>
 
-![](img/fairdata_process-1.png)
+# FAIRdata benefits
 
-
-# Benefits
 
 * Smooth transition between separate services
+
     * Single sign-in
     * Descriptive metadata passage 
+
 * specifically well suited for large storage 
-* free with limitations
+* free (with limitations)
 
-# IDA
+# Saving, organising, sharing and storing data with IDA
 
-Saving, organising, sharing and storing data
-
-* stable research data, 
-* during project lifetime and after,
-* both raw data and processed data, 
+* stable research data
+* during project lifetime and after
+* both raw data and processed data
 * web and command line interface
 * possibility to collect cumulative data 
 * possibility to "stage before freeze"
 
+# Metadata description with Qvain
 
-# Limitations
+-> data description, producer, topic, keywords and licenses
+<br></br>
 
-IDA not suitable for 
-* sensitive personal or confidential data -> Sensitive data services
-* data under heavy usage -> Allas 
-
-# Qvain
-
-* Metadata description
--> data description, who has produced the data, its topic, keywords and licenses
 * assignes PID (URI (non-static) or DOI)
 * choose access
--> data public; 
--> "embargo" (data public for certain time); 
--> data public for logged in users (HAKA/CSC), 
--> non-public (needs reason)
+  * data public
+  * "embargo" (data public for certain time)
+  * data public for logged-in users (HAKA/CSC)
+  * non-public
 
-# Etsin
+# Etsin - Fairdatas search 'engine'
 
 * landing page
-* search engine of Fairdata services
+
 -> ensurance that metadata is available even if data is no longer
 
 # Publishing data with Fairdata
@@ -143,13 +154,14 @@ IDA not suitable for
 5. Qvain: create a dataset/metadata and publish it
 6. Etsin: view your published dataset
 
-# Digital preservation
+# Digital preservation service
 (Pitkäaikaissäilytys (PAS))
 
-"Preservation of digital information for several decades or centuries, even though hardware, 
-software and file formats become outdated" 
+"Preservation of digital information for several decades or centuries, even though hardware, software and file formats become outdated" 
 
--> Definition of spatial data format ongoing
+<br></br>
+
+-> Geoportti project: Definition of spatial data format 
 
 # Paituli
 
@@ -157,16 +169,17 @@ software and file formats become outdated"
 * open to anyone, unrestricted access
 * includes historical versions of datasets
 * publish own geospatial datasets -> URN
-* webbased data preview 
+* webbased data preview
 * not limited to Finland
-* annual usage reports 
+* annual usage reports
 
 # Paituli data
 
 ~ 13 TB data
 
 2021
-* 2615 users 
+
+* 2615 users
 * 10k downloads from web
 * \> 1mio API requests
 
@@ -174,23 +187,24 @@ software and file formats become outdated"
 
 # Paituli access
 
-OGC webservices: 
-* WMS (maps, map image for viewing), 
-* WMTS (maptiles, map image tiles for viewing), 
-* WFS (features; vector data), 
-* WCS (coverage, raster data)
+**OGC webservices:**
 
-Download: 
+* WMS (maps, map image for viewing)
+* WMTS (maptiles, map image tiles for viewing)
+* WFS (features; vector data)
+* WCS (coverage, raster data
+
+**Download:**
+
 * webinterface,
 * bulk download: http, ftp, rsync
 
+# Preferred data formats
 
-# Preferred data formats Paituli
-
-raster: COG
-vector: GPKG/SHP
-pointcloud: LAZ
-multidimensional: netcdf,zarr
+* raster: COG
+* vector: GPKG/SHP
+* pointcloud: LAZ
+* multidimensional: netcdf, zarr
 
 # Publishing data on Paituli
 
@@ -202,101 +216,127 @@ multidimensional: netcdf,zarr
 
 # Sensitive Data Services
 
-[What is sensitive data?](https://research.csc.fi/definition-of-sensitive-data)
 
-* webinterface with secure workspace for sensitive data management
-* designed to support collaborative projects, on demand, available from the web
-* services:
-  * SD Connect: store and share sensitive research data during the active phase of a research project; built on Allas; storage in Finland
-  * SD Desktop: compute; decryption on the fly; built on ePouta; provides an isolated, secure private cloud computing environment accessible via a web user interface. All data processing takes place in Finland; extendable software stack
-  * SD Submit: publish under controlled access (pilot phase)
-  * SD Apply: re-use (pilot phase)
+"Secure workspace for all phases of research"
 
-# Allas 
+<br></br>
 
-* CSC object storage
-* project- lifetime storage
-* well connected with other services
-* accessible also from own computer
-* needs CSC account and project
-* project maximum size for free: 200TB
+<div class="column">
+* webinterface 
+* on-demand
+* data-controller
+* always encrypted
+</div>
 
-# Other
+<div class="column">
 
-The common EUDAT services 
-* open for all, 
-* 20 GB limit for dataset 
+* **SD Connect**: store and share sensitive research data during the active phase of a research project
+* **SD Desktop**: isolated, secure private cloud computing environment accessible via web interface; extendable software stack
+* **SD Submit**: publish under controlled access (pilot phase)
+* **SD Apply**: re-use (pilot phase)
+
+</div>
+
+# Allas
+
+* Object storage
+* Project-lifetime storage
+* Connected with other services
+* Accessible also from own computer
+* CSC account and project required
+* Maximum size for free: **200TB**
+
+# EUDAT services
+
+* open for all
+* 20 GB limit for dataset
 * 10 GB per file
 * currently only guaranteed for 2 years
-* premium EUDAT services which are bought by an organization, can be tailored (Aalto does not have those) 
+* customizable (premium access)
 
 # How to choose?
 
 1. sensitive data? -> SD services
-2. domain specific repository?
-3. dataset size & cost?
-4. access needs?
-5. time data is promised to be availble
-5. ease of publishing process
-6. connection to home organization and research.fi
+2. domain specific repository? 
+3. availability timeframe?
+4. dataset size & cost?
+5. access needs?
+6. ease of publishing process
+7. connection to home organization and research.fi
 
 # Licensing
 
-Aalto : As open as possible, as closed as necessary’ - https://www.aalto.fi/en/open-science-and-research/aalto-university-open-science-and-research-policy
-
-Aalto: "as open as possible, as closed as necessary" 
-Data: CC BY 4.0 for protocols, MIT for code
-
 CC BY **4.0** (or later, not earlier, not valid for data!)
+
 -> attribution (licensor must be given credit)
+
 (-SA: share-alike; -ND: non derivative; -NC: non commercial)
+
 -> irrevocable! All authors must agree, no restrictions may be added
 
-CC0: relinquish all copyrights to your data (-> Metadata could be CC0)
+**CC0**: relinquish all copyrights to your data (-> Metadata could be CC0)
  
-# Code
+# FAIR software practices
 
-FAIR also for code!
+<br></br>
+
+<div class="column">
 
 * Version control
-* Documentation
-* License
-* DOI from eg Zenodo
+* Accessible documentation
+* License, e.g. MIT
+* DOI from e.g. Zenodo
+* Recording environments
 
--> CodeRefinery
+</div>
 
-# Workflow
+<div class="column">
 
--> Reproducibility!
+<p align="center">
+<img src="img/CodeRefinery.png"  
+     height="400" />
+</p>
 
-* Scripting
-* Tools
-* Computing environment
+</div>
+
 
 # Actions
 
- Start early - limit workload
- - but it is (almost) never too late!
+<br></br>
 
-# What can I do now?
+<p align="center">
+Start early - limit workload
 
-* Research plan - keep up to date
+\- but it is (almost) never too late!
+</p>
+
+# What can I do right now?
+
+<div class="column">
+* RDM plan - keep up to date
 * document everything (metadata, code)
 * current and future storage
 * (get PID (DOI, immutable!) for dataset and use it)
 * use services that support FAIR principles
+</div>
+<div class="column">
 * clear file naming
-* version control 
-  * (git LFS, git-annex, datalad) , v1,v2,.. or date in filename
+* version control (git LFS, git-annex, datalad)
 * keep original data separate
 * publish metadata (with or without data attached)
-* make backups!
+* backups
+</div>
 
-# Publishing research data
+#  
 
-![](img/publish_process.png)
+<p align="center">
+<img src="img/publish_process.png"  
+     height="800" />
+</p>
 
 # Resources
+
+<div class="column">
 
 * [avointiede.fi](https://avointiede.fi)
 * [reseach.fi](https://research.fi)
@@ -306,14 +346,17 @@ FAIR also for code!
 * [Tips for licensing research data](https://www.openaire.eu/research-data-how-to-license/)
 * [Research Data Alliance](https://www.rd-alliance.org)
 * [Licensing software](https://choosealicense.com/)
-* [CodeRefinery material (FAIR software practices)](https://coderefinery.org/lessons/)
 
+</div>
+<div class="column">
+
+* [CodeRefinery material - FAIR software practices](https://coderefinery.org/lessons/)
 * [CSC storage comparison](https://research.csc.fi/storage-comparison-table) 
 * [CSC docs - data](https://docs.csc.fi/data/datasets/dataset-sources/)
 * [CSC Fairdata services](https://www.fairdata.fi)
 * [EUDATservices](https://research.csc.fi/-/eudat-services)
 * [CSC Sensitive data](https://research.csc.fi/sensitive-data-services-for-research)
-
+</div>
 
 # CSC
 
@@ -383,12 +426,15 @@ FAIR also for code!
 
 <div class="column">
 **\+ servicedesk@csc.fi**
+
 * Geoinformatics team
 * Storage team
 * Supercomputer team
 * Cloudcomputing team
 * Accounts team
+* AI & data analysis team
 * ...
+
 </div>
 
 # Training
@@ -401,3 +447,8 @@ FAIR also for code!
 * [CSC geoinformatics training material](https://research.csc.fi/gis-learning-materials)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
+
+# Figures
+
+* FAIR: -> https://doi.org/10.5281/zenodo.3332807
+* FAIR object: -> https://data.europa.eu/doi/10.2777/1524
