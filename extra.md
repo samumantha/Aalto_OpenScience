@@ -62,3 +62,23 @@ tykky
 
 
 - **Allas**; also direct access without download
+
+data type (raw & accumulating, dynamic, immutable public)
+
+FAIRdata-> latter part of research data life cycle
+
+# IDA - Limitations
+
+IDA not suitable for 
+* sensitive personal or confidential data -> Sensitive data services
+* data under heavy usage -> Allas 
+
+
+* **SD Connect**: store and share sensitive research data during the active phase of a research project; built on Allas; storage in Finland
+* **SD Desktop**: compute; decryption on the fly; built on ePouta; provides an isolated, secure private cloud computing environment accessible via a web user interface. All data processing takes place in Finland; extendable software stack
+* **SD Submit**: publish under controlled access (pilot phase)
+* **SD Apply**: re-use (pilot phase)
+
+# Licensing
+Aalto: "as open as possible, as closed as necessary" 
+Data: CC BY 4.0 for protocols, MIT for code
