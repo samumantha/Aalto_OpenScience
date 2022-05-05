@@ -4,7 +4,7 @@ subtitle: – CSC tools and services to support open science
 author: Samantha Wittke
 date: 06.05.22
 lang: en
-theme: csc-2019
+theme: csc-2016
 ---
 
 
