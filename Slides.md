@@ -7,29 +7,10 @@ lang: en
 theme: csc-2016
 ---
 
-# TODO
-
-* remove Aalto stuff
-* remove notes, text to image where possible
-  * other text to bulletpoints
-* find flow starting from open science intro
-* merge repository considerations to shorter section
-* clarify data access for all
-* clarify "in practice" 
-  * what can be done now
-  * other stages of process -> link to postassignment (RDM plan)
-* when Paituli not good option?
-
 
 # Data / Code "available on request"
 
 * own good / bad experiences?
-
-# Ever tried to reproduce someones analysis?
-
-* your own after some time/on a different computer?
-* a colleagues?
-* stranger?
 
 # FAIR to the rescue
 
@@ -59,7 +40,6 @@ Why?
 * agree on data ownership and sharing early on
 * ensure needed resources: storage, computing environment, equipment etc.
 
-https://research.csc.fi/data-management?inheritRedirect=true
 
 # Research data?
 
@@ -295,39 +275,22 @@ FAIR also for code!
 
 # Actions
 
-* before project
-* **now**
-* after
+ Start early - limit workload
+ - but it is (almost) never too late!
 
--> Start early - limit workload
+# What can I do now?
 
-# What can I do right now?
-
-#from https://www.fairdata.fi/en/about-fairdata/benefits/
-
-* Research plan /RDM - keep up to date
-* document each dataset 
-* think about future storage
-* get PID (DOI, immutable!) for dataset and use it
+* Research plan - keep up to date
+* document everything (metadata, code)
+* current and future storage
+* (get PID (DOI, immutable!) for dataset and use it)
 * use services that support FAIR principles
-
 * clear file naming
-* version control (git LFS, git-annex, datalad) , v1,v2,.. or date in filename
-
-* code == documentation of process
-* document software environment
-
-* keep original data + codes/notes on process
-* large process -> also keep/publish results
-
-* for publications you can also put Metadata first and later add data, to link in publication
-
+* version control 
+  * (git LFS, git-annex, datalad) , v1,v2,.. or date in filename
+* keep original data separate
+* publish metadata (with or without data attached)
 * make backups!
-
-https://how-to-open.science/change/educate/first-steps/
-https://the-turing-way.netlify.app/reproducible-research/open/open-checklist.html
-
-
 
 # Publishing research data
 
@@ -335,33 +298,21 @@ https://the-turing-way.netlify.app/reproducible-research/open/open-checklist.htm
 
 # Resources
 
-https://avointiede.fi
-https://the-turing-way.netlify.app/index.html
-https://fairsharing.org/
-https://www.software.ac.uk/how-can-you-make-research-data-accessible
-https://www.openaire.eu/research-data-how-to-license/
-https://www.rd-alliance.org/system/files/FAIR4RS_Principles_v0.3_RDA-RFC.pdf
-https://research.fi
-https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/#what-to-consider-when-choosing-a-suitable-storage-solution
-https://research.csc.fi/storage-comparison-table
-https://research.csc.fi/open-and-discover
-https://docs.csc.fi/data/datasets/hosting-datasets-at-CSC/
-https://www.fairdata.fi/en/ida/
-https://www.fairdata.fi/en/qvain/qvain-user-guide/
-https://docs.csc.fi/data/sensitive-data/
-https://research.csc.fi/-/eudat-services
-https://research.csc.fi/sensitive-data-services-for-research
+* [avointiede.fi](https://avointiede.fi)
+* [reseach.fi](https://research.fi)
+* [Turing way](https://the-turing-way.netlify.app/index.html)
+* [Fairsharing](https://fairsharing.org/)
+* [Tips for accessible research data](https://www.software.ac.uk/how-can-you-make-research-data-accessible)
+* [Tips for licensing research data](https://www.openaire.eu/research-data-how-to-license/)
+* [Research Data Alliance](https://www.rd-alliance.org)
+* [Licensing software](https://choosealicense.com/)
+* [CodeRefinery material (FAIR software practices)](https://coderefinery.org/lessons/)
 
-https://coderefinery.github.io/social-coding/
-
-
-https://www.rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs
-
-Licensing: https://choosealicense.com/ https://coderefinery.github.io/social-coding/
-
-
-https://docs.csc.fi/data/datasets/publishing-datasets/
-
+* [CSC storage comparison](https://research.csc.fi/storage-comparison-table) 
+* [CSC docs - data](https://docs.csc.fi/data/datasets/dataset-sources/)
+* [CSC Fairdata services](https://www.fairdata.fi)
+* [EUDATservices](https://research.csc.fi/-/eudat-services)
+* [CSC Sensitive data](https://research.csc.fi/sensitive-data-services-for-research)
 
 
 # CSC
@@ -414,15 +365,12 @@ https://docs.csc.fi/data/datasets/publishing-datasets/
 
 # CSC - Data
 
-* short term 
-* medium term
-* long term
-* geospatial
-
-- **Allas**; also direct access without download
+* short term -> Allas, Puhti
+* medium term -> Allas, IDA
+* long term -> IDA, PAS
+* geospatial -> Paituli
 
 # CSC - Expertise
-
 
 ...at your fingertips:
 
