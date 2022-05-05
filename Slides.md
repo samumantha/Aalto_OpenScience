@@ -175,11 +175,11 @@ theme: csc-2019
 
 # Paituli data
 
-~ 13 TB data
+**~ 13 TB data**
 
 2021
 
-* 2615 users
+* \> 2.5k users
 * 10k downloads from web
 * \> 1mio API requests
 
@@ -230,10 +230,10 @@ theme: csc-2019
 
 <div class="column">
 
-* **SD Connect**: store and share sensitive research data during the active phase of a research project
-* **SD Desktop**: isolated, secure private cloud computing environment accessible via web interface; extendable software stack
-* **SD Submit**: publish under controlled access (pilot phase)
-* **SD Apply**: re-use (pilot phase)
+* **SD Connect**: store and share 
+* **SD Desktop**: isolated, secure private cloud environment 
+* **SD Submit**: publish under controlled access (pilot)
+* **SD Apply**: re-use (pilot)
 
 </div>
 
